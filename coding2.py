@@ -5,7 +5,7 @@
 
 def score(L, k):
     if(k > len(L)):
-        print(sum(L))
+        return sum(L)
     
     i = 0
     j = -1
